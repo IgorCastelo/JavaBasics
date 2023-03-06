@@ -2,7 +2,7 @@ package com.igorcastelo.javabasico.intrucaoswitch;
 
 public class Main {
 
-	public static void main(string[] args) {
+	public static void main(String[] args) {
 		//istrução switch(exemplo de valida��o de termos do usu�rio).
 	     /*  char resposta = 's';
 	       
