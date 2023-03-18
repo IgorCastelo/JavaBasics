@@ -28,7 +28,15 @@ public class Main {
 		
 		//O LinkedHashSet entrega os números organizados de acordo com a posiçãoem que foi inserido, mas sem repetições.
 		LinkedHashSet<Integer> numerosLinkedHashSet = new LinkedHashSet<>(numerosArrayList);
-		System.out.println("LinkedhashSet: "+ numerosLinkedHashSet);
+		//ou numerosLinkedHashSet.addAll(numerosArrayList);
+		System.out.println("LinkedhashSet: ");
+		
+		Iterator<Integer> iterator = numerosLinkedHashSet.iterator();
+		
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());	
+		}
+		
 
 		
 		
