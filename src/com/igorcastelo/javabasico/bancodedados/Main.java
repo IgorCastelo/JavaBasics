@@ -25,7 +25,6 @@ public class Main {
 				System.out.println("Banco conectado");
 			} catch (ClassNotFoundException ex) {
 				System.out.println("Driver não localizado");
-			
 			}catch (SQLException ex) {
 				System.out.println("Ocorreu um erro ao acessar o banco: " + ex.getMessage());
 			}
