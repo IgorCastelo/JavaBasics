@@ -20,12 +20,9 @@ public class Main {
 			System.out.println("Conexao realizada com sucesso");
 			PreparedStatement  prepareStatement = conexao.prepareStatement(instrucaoDelete);
 			
-			
-			
 			prepareStatement.setInt(1,3);
-			
-			System.out.println("DELETE realizado com sucesso");
 			prepareStatement.executeUpdate();
+			System.out.println("DELETE realizado com sucesso");
 
 		}catch(ClassNotFoundException ex) {
 			System.out.println("Driver não localizado");
